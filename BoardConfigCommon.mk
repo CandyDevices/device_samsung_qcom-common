@@ -35,6 +35,9 @@ TARGET_USES_ION := true
 # Healthd
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
 
+# Offline charger percentage
+BOARD_CHARGER_SHOW_PERCENTAGE := true
+
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
